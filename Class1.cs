@@ -10,69 +10,61 @@ namespace Mod1_Atividade1
     {
         public static void Main(string[] args)
         {
-            bool flag;
-            int cidades;
+            // Leitura do arquivo de distâncias - Desktop
 
-            Console.Write("Qual o número de cidades: ");
-            do
-            {
-                flag = Int32.TryParse(Console.ReadLine(), out cidades);
-                if (!flag || cidades <= 0)
-                {
-                    Console.Write("Entre com um número válido de cidades: ");
-                    flag = false;
-                }
-            } while (!flag);
+            string caminhoDistancia = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            string nomeArquivoDistancia = "matriz.txt";
 
-            // Entrada das distâncias
+            string caminhoArquivoDistancia = Path.Combine(caminhoDistancia, nomeArquivoDistancia);
+
+            string[] linhasDistancia = System.IO.File.ReadAllLines(caminhoArquivoDistancia);
+
+
+            // Número de cidades - tamanho da matriz
+
+            int cidades = linhasDistancia.Length;
+
+
+            // Adequação das Strings de distância para uma matriz int
+
             int[,] distancias = new int[cidades, cidades];
-
-            Console.WriteLine("\nEntre com as distâncias entre as cidades: ");
             for (int i = 0; i < cidades; i++)
             {
+                string[] separador = linhasDistancia[i].Split(",");
                 for (int j = 0; j < cidades; j++)
                 {
-                    if (j == i)
-                    {
-                        distancias[i, j] = 0;
-                        continue;
-                    }
-                    else if (j < i)
-                    {
-                        distancias[i, j] = distancias[j, i];
-                        continue;
-                    }
-
-                    bool flag1;
-                    Console.Write($"Entre com a distâcia entre as cidades {i + 1} e {j + 1}: ");
-                    do
-                    {
-                        flag1 = Int32.TryParse(Console.ReadLine(), out distancias[i, j]);
-                        if (!flag1 || distancias[i, j] < 0)
-                        {
-                            Console.Write("Entre com uma distância válida: ");
-                            flag1 = false;
-                        }
-                    } while (!flag1);
+                    Int32.TryParse(separador[j], out distancias[i, j]);
                 }
             }
 
-            // Caminho a percorrer
-            Console.WriteLine("Entre com o caminho a ser percorrido. Ex. 1, 2, 3, 2, 5, 1, 4");
-            string[] caminhosString = Console.ReadLine().Split(", ");
-            int[] caminhos = new int[caminhosString.Length];
 
-            for (int i = 0; i < caminhosString.Length; i++)
+            // Leitura do arquivo do percuso - Desktop
+
+            string caminhoPercurso = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            string nomeArquivoPercurso = "caminho.txt";
+
+            string caminhoArquivoPercurso = Path.Combine(caminhoPercurso, nomeArquivoPercurso);
+
+            string[] linhaPercurso = System.IO.File.ReadAllLines(caminhoArquivoPercurso);
+
+
+            // Adequação da String do percurso para um vetor int
+
+            string[] percursoString = linhaPercurso[0].Split(", ");
+            int[] percurso = new int[percursoString.Length];
+
+            for (int i = 0; i < percursoString.Length; i++)
             {
-                Int32.TryParse(caminhosString[i], out caminhos[i]);
+                Int32.TryParse(percursoString[i], out percurso[i]);
             }
+
 
             // Distância somada
 
             int soma = 0;
-            for (int i = 0; i < caminhos.Length - 1; i++)
+            for (int i = 0; i < percurso.Length - 1; i++)
             {
-                soma += distancias[caminhos[i] - 1, caminhos[i + 1] - 1];
+                soma += distancias[percurso[i] - 1, percurso[i + 1] - 1];
             }
 
             Console.WriteLine($"A distância percorrida pelo usuário é de {soma} km.");
