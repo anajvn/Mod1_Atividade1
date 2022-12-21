@@ -1,0 +1,15 @@
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\bin\Debug\net6.0\Mod1_Atividade1.exe
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\bin\Debug\net6.0\Mod1_Atividade1.deps.json
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\bin\Debug\net6.0\Mod1_Atividade1.runtimeconfig.json
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\bin\Debug\net6.0\Mod1_Atividade1.dll
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\bin\Debug\net6.0\Mod1_Atividade1.pdb
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debug\net6.0\Mod1_Atividade1.csproj.AssemblyReference.cache
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debug\net6.0\Mod1_Atividade1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debug\net6.0\Mod1_Atividade1.AssemblyInfoInputs.cache
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debug\net6.0\Mod1_Atividade1.AssemblyInfo.cs
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debug\net6.0\Mod1_Atividade1.csproj.CoreCompileInputs.cache
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debug\net6.0\Mod1_Atividade1.dll
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debug\net6.0\refint\Mod1_Atividade1.dll
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debug\net6.0\Mod1_Atividade1.pdb
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debug\net6.0\Mod1_Atividade1.genruntimeconfig.cache
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debug\net6.0\ref\Mod1_Atividade1.dll
