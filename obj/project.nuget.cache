@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "B3WcEakJtv6AV7mHeafNoc/9edq5M6ukwMYV8pmYBnjDLsI8zY8UNKfqTTImaAnAOl00DtLaYTKSbMNe390imQ==",
+  "dgSpecHash": "TWIn8pq9pSqmrBFSLzCZ9hptfdkbLzniREgwGGl7p6o8hCMgffvpUUbaa76+Sw2BdfbIuM4dxmE5d/tFekNhyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuário\\Desktop\\projetos_C_sharp\\source\\repos\\Mod1_Atividade1\\Mod1_Atividade1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuário\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

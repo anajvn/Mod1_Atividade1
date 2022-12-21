@@ -13,3 +13,5 @@ C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debu
 C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debug\net6.0\Mod1_Atividade1.pdb
 C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debug\net6.0\Mod1_Atividade1.genruntimeconfig.cache
 C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debug\net6.0\ref\Mod1_Atividade1.dll
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\Usuário\Desktop\projetos_C_sharp\source\repos\Mod1_Atividade1\obj\Debug\net6.0\Mod1_Atividade1.csproj.CopyComplete
